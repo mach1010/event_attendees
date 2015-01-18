@@ -21,5 +21,13 @@
       </tr>
     <% end %>
   </table>
+  
+  <p>
+    <% if phone %>
+      We'll text you at <%= phone %> before our next meeting! Please update your information if this is not correct!
+    <% else %>
+      We don't have a valid phone number for you! Please update your information if you would like us to text our upcoming meetings in the future!
+    <% end %>
+  </p>
 </body>
 </html>
